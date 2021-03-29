@@ -1,3 +1,7 @@
 language: python
+
+services:
+  - docker
+
 script:
   - python manage.py test cars
