@@ -11,7 +11,7 @@ from .models import Car, Service
 from .facades.db_facades import CarFacade, ServiceFacade
 #from users.forms import CustomUserCreationForm
 
-# jakis komentarz
+# jakis komentarz i jeszcze
 class CarsViewApiTest(TestCase):
 
     def add_user_and_few_cars_to_db(self):
