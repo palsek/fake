@@ -7,4 +7,4 @@ services:
 language: python
 
 script:
-  - python manage.py test cars
+  - docker-compose exec web python manage.py test cars
