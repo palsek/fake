@@ -3,7 +3,7 @@ version: "3.3"
 services:
   db:
     image: postgres
-    user: root:root
+    #user: root:root
     volumes:
       - ./data/db:/var/lib/postgresql/data
     environment:
